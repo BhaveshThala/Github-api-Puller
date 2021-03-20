@@ -1,0 +1,27 @@
+.userdata
+{
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    border:2px  solid black;
+}
+.userimage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid whitesmoke;
+}
+.repo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+html {
+    scroll-behavior: smooth;
+  }
